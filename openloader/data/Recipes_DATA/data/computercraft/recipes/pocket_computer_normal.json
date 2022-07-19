@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "PDP",
+    "ECE"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "D": {
+      "item": "contenttweaker:lcd_chip"
+    },
+    "E": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "tag": "forge:circuits/elite"
+    }
+  },
+  "result": {
+    "item": "computercraft:pocket_computer_normal"
+  }
+}

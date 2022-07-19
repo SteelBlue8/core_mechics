@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "N",
+    "A"
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "N": {
+      "item": "computercraft:cable"
+    },
+    "A": {
+      "item": "contenttweaker:aluminium_casing"
+    }
+  },
+  "result": {
+    "item": "computercraft:wired_modem"
+  }
+}

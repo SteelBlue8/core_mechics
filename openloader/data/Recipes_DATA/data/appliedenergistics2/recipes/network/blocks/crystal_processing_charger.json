@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:charger"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ab ", "a  ", "cb "],
+  "key": {
+    "a": {
+      "tag": "forge:plates/aluminum"
+    },
+    "b": {
+      "item": "createaddition:overcharged_alloy"
+    },
+    "c":{
+      "item":"contenttweaker:aluminium_casing"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","results":[{"count":6,"base_ingredient":{"tag":"forge:ingots/steel"}}],"additives":[{"item":"dustrial_decor:cast_iron_billet"}],"input":{"count":4,"base_ingredient":{"tag":"forge:ingots/iron","count":4}},"slag":{"tag":"forge:slag"},"time":400,"energy":204800}

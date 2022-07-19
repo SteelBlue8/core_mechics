@@ -1,0 +1,28 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:personal_chest"
+  },
+  "pattern":[
+    "ICI",
+    "P P",
+    "ISI"
+  ],
+  "key":{
+    "P":{
+      "tag":"forge:chests/wooden"
+    },
+    "C":{
+      "tag":"forge:circuits/basic"
+    },
+    "I":{
+       "item":"mekanism:alloy_infused"
+    },
+    "C":{
+      "tag":"forge:circuits/advanced"
+    },
+    "S":{
+      "item":"mekanism:steel_casing"
+    }
+  }
+}

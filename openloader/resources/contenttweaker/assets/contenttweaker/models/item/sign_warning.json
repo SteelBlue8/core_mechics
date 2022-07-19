@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "contenttweaker:item/sign_warning"
+	},
+	"display": {
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -0.5],
+			"scale": [2, 2, 3]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["i i"," s ","i i"],"key":{"i":{"tag":"forge:plates/steel"},"s":{"item":"contenttweaker:rotor"}},"result":{"item":"immersiveengineering:component_steel"}}

@@ -1,0 +1,534 @@
+{
+	id: "75696195FFCEFDE7"
+	group: ""
+	order_index: 0
+	filename: "technology"
+	title: "Technology"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["Andesite alloy is a durable, cheap material that is perfect for basic mechanical parts!"]
+			size: 1.5d
+			id: "26095F307E4BCCAC"
+			tasks: [{
+				id: "21D63EACE721D44F"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.5d
+			description: ["A water wheel lets you harness the rotational power of flowing water to run machinery"]
+			dependencies: ["26095F307E4BCCAC"]
+			id: "236C580DEA719B31"
+			tasks: [{
+				id: "181C61313F6EBA03"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			description: ["A windmill will let you harness the wind to drive your machinery"]
+			dependencies: ["26095F307E4BCCAC"]
+			id: "02E376134BEDF4A0"
+			tasks: [{
+				id: "04DAAE430512D45B"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["A mechanical press uses rotational power to make metal plates and sheets for more advanced equipment"]
+			dependencies: [
+				"02E376134BEDF4A0"
+				"236C580DEA719B31"
+			]
+			dependency_requirement: "one_completed"
+			id: "5B585100B66F54F7"
+			tasks: [{
+				id: "0C3500F6A6ED1413"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["A blaze burner can be used to capture blazes, either by clicking on them or a blaze spawner, to heat a basin!"]
+			dependencies: ["5B585100B66F54F7"]
+			id: "66719CB049A0D08E"
+			tasks: [{
+				id: "59B4D0533573FC88"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			description: ["A mechanical mixer uses rotational force to mix things in a basin together"]
+			dependencies: ["5B585100B66F54F7"]
+			id: "2EB015C5E46BFB24"
+			tasks: [{
+				id: "3BE5674079732394"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Brass is a more durable, long-lasting material than andesite alloy, allowing more advanced and precise machinery to be made"]
+			dependencies: [
+				"66719CB049A0D08E"
+				"2EB015C5E46BFB24"
+			]
+			id: "5177864D7EF7ADE8"
+			tasks: [{
+				id: "4C8097FF8BC831E5"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["A mechanical crafter can perform crafting operations too complex to be done by hand"]
+			dependencies: ["5177864D7EF7ADE8"]
+			id: "55B60C1A78B357B6"
+			tasks: [{
+				id: "0860E5DE71061173"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Crushing wheels let you crush even the most durable of things into a fine powder!"]
+			dependencies: ["55B60C1A78B357B6"]
+			id: "388D5A10EE089F37"
+			tasks: [{
+				id: "275A512E79782B1F"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Obsidian dust is a useful material- make a fair bit of it!"]
+			dependencies: ["388D5A10EE089F37"]
+			id: "0D046688E37B87A8"
+			tasks: [{
+				id: "5AA16D3B10D90EDD"
+				type: "item"
+				item: "create:powdered_obsidian"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["Heatproof bricks use obsidian dust and cinderflour to become much more durable and heat resistant for higher temperature applications"]
+			dependencies: ["0D046688E37B87A8"]
+			size: 1.5d
+			id: "687AC23ABA446A16"
+			tasks: [{
+				id: "18DBFB36636FDAFA"
+				type: "item"
+				item: "contenttweaker:heatproof_brick"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["687AC23ABA446A16"]
+			id: "410E79041E984F19"
+			tasks: [{
+				id: "108DD5A6CA1B5DFE"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["687AC23ABA446A16"]
+			id: "133E7937198820C1"
+			tasks: [{
+				id: "0FFF4E1750CF628C"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: [
+				"133E7937198820C1"
+				"410E79041E984F19"
+			]
+			id: "13EF9347E5F16083"
+			tasks: [{
+				id: "05EE28343C894D57"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["13EF9347E5F16083"]
+			id: "58E297668D02C684"
+			tasks: [{
+				id: "35CC8D6825F5C80D"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			dependencies: ["410E79041E984F19"]
+			id: "3B677CC39CA36CA9"
+			tasks: [{
+				id: "78F54E3995ED59E0"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["13EF9347E5F16083"]
+			id: "0C52BCF1948C06DF"
+			tasks: [{
+				id: "58F0C11D894F3C2A"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: [
+				"3B677CC39CA36CA9"
+				"0C52BCF1948C06DF"
+			]
+			dependency_requirement: "one_completed"
+			id: "63EEB1DD94B61CAD"
+			tasks: [{
+				id: "00EFEEA4A9CEA797"
+				type: "advancement"
+				icon: "immersiveengineering:metal_press"
+				advancement: "immersiveengineering:main/mb_metalpress"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["63EEB1DD94B61CAD"]
+			id: "079D22095385496E"
+			tasks: [{
+				id: "6ACAB6AF7ACAB6C1"
+				type: "advancement"
+				icon: "immersiveengineering:advanced_blast_furnace"
+				advancement: "immersiveengineering:main/mb_improvedblastfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.5d
+			dependencies: ["079D22095385496E"]
+			id: "183E6596D495598D"
+			tasks: [{
+				id: "63B41C21E4DF56EA"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.5d
+			dependencies: ["079D22095385496E"]
+			id: "691E29F58CE2F619"
+			tasks: [{
+				id: "49D6926B1B3C1374"
+				type: "advancement"
+				icon: "immersiveengineering:crusher"
+				advancement: "immersiveengineering:main/mb_crusher"
+				criterion: ""
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			dependencies: ["079D22095385496E"]
+			id: "66FEF4FBEE98A81A"
+			tasks: [{
+				id: "7D7E7FCEA47371D6"
+				type: "advancement"
+				icon: "immersiveengineering:diesel_generator"
+				advancement: "immersiveengineering:main/mb_dieselgen"
+				criterion: ""
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.0d
+			dependencies: ["66FEF4FBEE98A81A"]
+			id: "72A456032B91C60F"
+			tasks: [{
+				id: "70101ACC4D3592F4"
+				type: "advancement"
+				icon: "immersiveengineering:arc_furnace"
+				advancement: "immersiveengineering:main/mb_arcfurnace"
+				criterion: ""
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["72A456032B91C60F"]
+			size: 1.5d
+			id: "12EBA4263F8ED65A"
+			tasks: [{
+				id: "4C3D0A409AC17E52"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.0d
+			dependencies: ["12EBA4263F8ED65A"]
+			id: "0E2C4510981D60DC"
+			tasks: [{
+				id: "6ECC5D1D4BD6CFB6"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			dependencies: ["0E2C4510981D60DC"]
+			id: "14C45E1A3043F0A8"
+			tasks: [{
+				id: "467CD779332720DF"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 1.5d
+			dependencies: ["4E166EB41EA53AF4"]
+			id: "255459CB49007E8B"
+			tasks: [{
+				id: "63289B98AC960FDD"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 1.5d
+			dependencies: ["417F1F51F366BDA1"]
+			id: "759C1572510F285C"
+			tasks: [{
+				id: "136E12DD7DE98449"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.5d
+			dependencies: ["0E2C4510981D60DC"]
+			id: "4E166EB41EA53AF4"
+			tasks: [{
+				id: "261C98756FBF3D9C"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 21.5d
+			y: -1.5d
+			dependencies: ["14C45E1A3043F0A8"]
+			id: "3A39E4D804D0D865"
+			tasks: [{
+				id: "4018897FDB646AE5"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -1.5d
+			dependencies: ["3A39E4D804D0D865"]
+			id: "2E5D224DB46F1BCB"
+			tasks: [{
+				id: "13089AFDF4353652"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 1.5d
+			dependencies: ["255459CB49007E8B"]
+			id: "3E88CA5F64535DD4"
+			tasks: [{
+				id: "60B766DA4995724C"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 0.0d
+			dependencies: ["14C45E1A3043F0A8"]
+			id: "149B9C787B3977E4"
+			tasks: [{
+				id: "4D0CCBC9EA9DEFC5"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: 26.0d
+			y: 0.0d
+			dependencies: ["103ED7B63BEA5A75"]
+			id: "27445FDBD99ADA41"
+			tasks: [{
+				id: "4811937E46C97382"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+		}
+		{
+			x: 27.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["27445FDBD99ADA41"]
+			size: 1.5d
+			id: "417F1F51F366BDA1"
+			tasks: [{
+				id: "0BA0DECCA7511042"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 3.0d
+			dependencies: ["759C1572510F285C"]
+			id: "436240F60F7A81F9"
+			tasks: [{
+				id: "62136E3C865E3052"
+				type: "item"
+				item: "mekanismgenerators:fusion_reactor_controller"
+			}]
+		}
+		{
+			x: 30.5d
+			y: 0.0d
+			dependencies: ["0EB5AEF78098A44D"]
+			id: "449FFDF3C810E197"
+			tasks: [{
+				id: "1398FB33AAC44506"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 27.5d
+			y: -1.5d
+			dependencies: ["417F1F51F366BDA1"]
+			id: "138C13A772874CDE"
+			tasks: [{
+				id: "01CD4D12C19062C6"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+		}
+		{
+			x: 32.0d
+			y: 0.0d
+			dependencies: ["449FFDF3C810E197"]
+			id: "220551F5AEA08FBD"
+			tasks: [{
+				id: "5E99B23051E8564A"
+				type: "item"
+				item: "appliedenergistics2:annihilation_core"
+			}]
+		}
+		{
+			x: 33.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["220551F5AEA08FBD"]
+			size: 2.0d
+			id: "470FFDC0D8963167"
+			tasks: [{
+				id: "010C691A3EDFFC12"
+				type: "advancement"
+				icon: "appliedenergistics2:controller"
+				advancement: "appliedenergistics2:main/network2"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["687AC23ABA446A16"]
+			id: "14EC398102B58154"
+			tasks: [{
+				id: "3E63D7A472988AB1"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+		}
+		{
+			x: 24.5d
+			y: 0.0d
+			dependencies: [
+				"2E5D224DB46F1BCB"
+				"149B9C787B3977E4"
+				"3E88CA5F64535DD4"
+			]
+			id: "103ED7B63BEA5A75"
+			tasks: [{
+				id: "3ABB0A7A772E0A2D"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 0.0d
+			dependencies: ["417F1F51F366BDA1"]
+			id: "0EB5AEF78098A44D"
+			tasks: [{
+				id: "34854255E9429B1D"
+				type: "item"
+				item: "mekanism:sps_casing"
+			}]
+		}
+	]
+}

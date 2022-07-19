@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CMC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "immersiveengineering:sheetmetal_steel"
+    },
+    "C": {
+      "item": "immersiveengineering:component_steel"
+    },
+    "M":{
+      "item":"contenttweaker:motor"
+    }
+  },
+  "result": {
+    "item": "immersiveengineering:heavy_engineering",
+    "count": 4
+  }
+}

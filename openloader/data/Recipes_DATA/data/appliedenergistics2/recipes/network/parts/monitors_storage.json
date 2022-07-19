@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:storage_monitor"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aaa", "bcb"],
+  "key": {
+    "a": {
+      "item": "contenttweaker:lcd_chip"
+    },
+    "b": {
+      "item": "appliedenergistics2:level_emitter"
+    },
+    "c": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  }
+}

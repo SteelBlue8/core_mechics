@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	" S ",
+  	"PRP",
+        "CRC",
+        "PDP"
+  ],
+  "key": {
+    "S": {
+      "item": "create:shaft"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    },
+    "R": {
+      "item": "contenttweaker:rotor"
+    },
+    "C": {
+      "item": "immersiveengineering:coil_lv"
+    },
+    "D": {
+      "item": "immersiveengineering:dynamo"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator"
+  }
+}

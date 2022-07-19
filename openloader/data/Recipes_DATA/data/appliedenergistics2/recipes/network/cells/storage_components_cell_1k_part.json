@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "appliedenergistics2:1k_cell_component"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aba", "bcb", "aba"],
+  "key": {
+    "a": {
+      "tag": "forge:plates/steel"
+    },
+    "b": {
+      "item": "appliedenergistics2:purified_certus_quartz_crystal"
+    },
+    "c": {
+      "item": "appliedenergistics2:logic_processor"
+    }
+  }
+}

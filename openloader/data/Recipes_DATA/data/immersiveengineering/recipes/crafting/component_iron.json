@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["i i"," r ","i i"],"key":{"i":{"tag":"forge:plates/iron"},"r":{"item":"immersiveengineering:wirecoil_copper"}},"result":{"item":"immersiveengineering:component_iron"}}

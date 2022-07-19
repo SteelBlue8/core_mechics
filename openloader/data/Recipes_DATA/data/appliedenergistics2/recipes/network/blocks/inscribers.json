@@ -1,0 +1,24 @@
+{
+  "result": {
+    "item": "appliedenergistics2:inscriber"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["aba", "cdc", "cec"],
+  "key": {
+    "a":{
+      "tag":"forge:circuits/advanced"
+    },
+    "b":{
+      "item":"contenttweaker:motor"
+    },
+    "c":{
+      "tag":"forge:plates/aluminum"
+    },
+    "d":{
+      "item":"minecraft:piston"
+    },
+    "e":{
+      "item":"contenttweaker:aluminium_casing"
+    }
+  }
+}
