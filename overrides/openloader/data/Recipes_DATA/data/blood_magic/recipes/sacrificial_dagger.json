@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  a",
+    "ba ",
+    "cb "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/arcane_gold"
+    },
+    "b": {
+      "tag": "forge:nuggets/bronze"
+    },
+    "c": {
+      "tag": "forge:gems/mana"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:sacrificialdagger"
+  }
+}

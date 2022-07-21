@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:refined_radiance"
+    },
+    {
+      "tag": "forge:gems/lapis"
+    },
+    {
+      "item": "create:rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "ars_nouveau:mana_gem",
+      "count": 6
+    }
+  ],
+  "heatRequirement": "heated"
+}

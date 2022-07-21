@@ -75,3 +75,8 @@ craftingTable.removeByName("ars_nouveau:mycelial_sourcelink");
 craftingTable.removeByName("ars_nouveau:scribes_table");
 craftingTable.removeByName("ars_nouveau:glyph_press");
 craftingTable.removeByName("ars_nouveau:mana_condenser");
+
+craftingTable.removeByName("eidolon:pewter_blend");
+
+craftingTable.removeByName("bloodmagic:sacrificial_dagger");
+craftingTable.removeByName("bloodmagic:blood_altar");

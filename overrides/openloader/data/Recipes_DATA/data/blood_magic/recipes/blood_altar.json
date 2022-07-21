@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "cavesandcliffs:polished_deepslate"
+    },
+    "b": {
+      "item": "minecraft:cauldron"
+    },
+    "c": {
+      "item": "eidolon:crimson_essence"
+    },
+    "d": {
+      "item": "eidolon:gold_inlay"
+    }
+  },
+  "result": {
+    "item": "bloodmagic:altar"
+  }
+}
