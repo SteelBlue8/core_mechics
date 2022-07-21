@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gMg"
+  ],
+  "key": {
+    "g": {
+      "item": "eidolon:gold_inlay"
+    },
+    "M": {
+      "tag": "forge:storage_blocks/mana"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:arcane_relay"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "bxb",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "ars_nouveau:arcane_stone"
+    },
+    "b": {
+      "tag": "forge:nuggets/arcane_gold"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:arcane_pedestal"
+  }
+}

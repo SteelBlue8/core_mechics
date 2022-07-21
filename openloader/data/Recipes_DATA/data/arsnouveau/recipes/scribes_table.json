@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bcb"
+  ],
+  "key": {
+    "c": {
+      "tag": "forge:nuggets/arcane_gold"
+    },
+    "a": {
+      "tag": "forge:logs/archwood"
+    },
+    "b": {
+      "tag": "forge:fences"
+    }
+  },
+  "result": {
+    "item": "ars_nouveau:scribes_table"
+  }
+}

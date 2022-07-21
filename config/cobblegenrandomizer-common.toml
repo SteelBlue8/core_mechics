@@ -10,11 +10,11 @@
 	#Forge tags are supported
 	[general.lists]
 		#Basalt gen
-		block_list_basalt = ["minecraft:basalt|60", "minecraft:blackstone|60"]
+		block_list_basalt = ["minecraft:basalt|90", "minecraft:blackstone|10"]
 		#Cobble gen
 		block_list_cobble = ["minecraft:cobblestone"]
 		#Stone gen
-		block_list_stone = ["minecraft:stone|30", "minecraft:granite|10", "minecraft:diorite|10", "minecraft:andesite|10"]
+		block_list_stone = ["minecraft:stone"]
 
 		#Custom settings
 		[general.lists.custom]
@@ -29,10 +29,5 @@
 			#   ["cobblestone", "minecraft:diamond_block", ["minecraft:diamond_block"]],
 			#   ["cobblestone", "minecraft:dirt", ["forge:dirt"]],
 			#   ["cobblestone", "minecraft:white_wool", ["minecraft:wool"]]]
-			custom_generators = [
-				["cobblestone", "minecraft:magma_block",["minecraft:diorite|50","minecraft:granite|50"]],
-				["cobblestone", "architects_palette:sunstone",["minecraft:andesite"]],
-				["cobblestone", "quark:brimstone",["cavesandcliffs:cobbled_deepslate|10","quark:slate|90"]],
-				["cobblestone", "quark:permafrost",["quark:jasper|75","quark:marble|25"]]
-			]
+			custom_generators = [["cobblestone", "minecraft:magma_block", ["minecraft:diorite", "minecraft:granite"]], ["cobblestone", "architects_palette:sunstone", ["minecraft:andesite"]], ["cobblestone", "quark:brimstone", ["cavesandcliffs:cobbled_deepslate|10", "quark:slate|90"]], ["cobblestone", "quark:permafrost", ["quark:jasper|75", "quark:marble|25"]]]
 
