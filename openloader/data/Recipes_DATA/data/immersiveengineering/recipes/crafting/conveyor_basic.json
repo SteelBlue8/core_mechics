@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["lll","imi"],"key":{"l":{"tag":"forge:leather"},"i":{"tag":"forge:ingots/iron"},"m":{"item":"contenttweaker:motor"}},"result":{"item":"immersiveengineering:conveyor_basic","count":8}}

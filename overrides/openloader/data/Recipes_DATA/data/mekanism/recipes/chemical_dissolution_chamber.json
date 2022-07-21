@@ -1,0 +1,34 @@
+{
+ "type":"mekanism:mek_data",
+  "result":{
+    "item":"mekanism:chemical_dissolution_chamber"
+  },
+  "pattern":[
+    "PMP",
+    "TTT",
+    "CSC"
+  ],
+
+  "key":{
+
+    "T":{
+      "item":"mekanism:basic_chemical_tank"
+    },
+
+    "C":{
+      "tag":"forge:circuits/elite"
+    },
+
+    "P":{
+      "tag":"forge:plates/aluminum"
+    },
+
+    "S":{
+      "item":"mekanism:steel_casing"
+    },
+
+    "M":{
+      "item":"contenttweaker:motor"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "appliedenergistics2:64k_fluid_cell_component"
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["a", "b"],
+  "key": {
+    "a": {
+      "item": "minecraft:bucket"
+    },
+    "b": {
+      "item": "appliedenergistics2:64k_cell_component"
+    }
+  }
+}

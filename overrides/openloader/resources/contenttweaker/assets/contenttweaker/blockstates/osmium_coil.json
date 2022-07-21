@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y":  { "model": "contenttweaker:block/osmium_coil" },
+    "axis=z":   { "model": "contenttweaker:block/osmium_coil", "x": 90 },
+    "axis=x":   { "model": "contenttweaker:block/osmium_coil", "x": 90, "y": 90 }
+  }
+}

@@ -1,0 +1,34 @@
+{
+ "type":"mekanism:mek_data",
+  "result":{
+    "item":"mekanism:chemical_infuser"
+  },
+  "pattern":[
+    " C ",
+    "TMT",
+    "ASA"
+  ],
+
+  "key":{
+
+    "T":{
+      "item":"mekanism:basic_chemical_tank"
+    },
+
+    "C":{
+      "tag":"forge:circuits/advanced"
+    },
+
+    "A":{
+      "tag":"mekanism:alloys/infused"
+    },
+
+    "S":{
+      "item":"mekanism:steel_casing"
+    },
+
+    "M":{
+      "item":"contenttweaker:motor"
+    }
+  }
+}

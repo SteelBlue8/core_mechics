@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:ingots/bronze"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "C": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "steampowered:bronze_burner",
+    "count": 1
+  }
+}

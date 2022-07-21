@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PMP",
+    "PMP",
+    "CAC"
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "M": {
+      "item": "contenttweaker:motor"
+    },
+    "A": {
+      "item": "contenttweaker:aluminium_casing"
+    },
+    "C": {
+      "tag": "forge:circuits/basic"
+    }
+  },
+  "result": {
+    "item": "computercraft:printer"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:osmium_compressor"
+  },
+  "pattern":[
+    "AOA", 
+    "BMB",
+    "ICI"
+  ],
+  "key":{
+    "B":{
+      "item":"minecraft:bucket"
+    },
+    "A":{
+      "tag":"forge:circuits/advanced"
+    },
+    "I":{
+      "tag":"forge:ingots/steel"
+    },
+    "C":{
+      "item":"mekanism:steel_casing"
+    },
+    "O":{
+      "item":"immersiveengineering:coil_hv"
+    },
+    "M":{
+      "item":"contenttweaker:motor"
+    }
+  }
+}

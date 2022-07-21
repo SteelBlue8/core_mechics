@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	"EEEEE",
+        "CFQAC",
+        "EEEEE"
+  ],
+  "key": {
+    "E": {
+      "item": "architects_palette:entwine_rod"
+    },
+    "C": {
+      "tag": "forge:circuits/ultimate"
+    },
+    "F": {
+      "item": "appliedenergistics2:formation_core"
+    },
+    "Q": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    },
+    "A":{
+      "item": "appliedenergistics2:annihilation_core"
+    }
+  },
+  "result": {
+    "item": "mekanism:teleportation_core"
+  }
+}

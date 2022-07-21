@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "NNN",
+    " A "
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "A": {
+      "item": "contenttweaker:aluminium_casing"
+    }
+  },
+  "result": {
+    "item": "computercraft:speaker"
+  }
+}

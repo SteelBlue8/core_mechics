@@ -1,0 +1,33 @@
+
+#General settings
+[general]
+	#Use config instead of datapack
+	use_config = true
+
+	#List settings
+	#Syntax: ["modid:block|weight"]
+	#Example: ["minecraft:stone|2","minecraft:dirt|1"]
+	#Forge tags are supported
+	[general.lists]
+		#Basalt gen
+		block_list_basalt = ["minecraft:basalt|90", "minecraft:blackstone|10"]
+		#Cobble gen
+		block_list_cobble = ["minecraft:cobblestone"]
+		#Stone gen
+		block_list_stone = ["minecraft:stone"]
+
+		#Custom settings
+		[general.lists.custom]
+			#Custom generators
+			#Syntax: [gen]
+			#Gen: [type, block, list]
+			#Type: cobblestone, stone
+			#Block: resource location of the block below the generated block
+			#List: see List settings
+			#Examples:
+			#custom_generators = [
+			#   ["cobblestone", "minecraft:diamond_block", ["minecraft:diamond_block"]],
+			#   ["cobblestone", "minecraft:dirt", ["forge:dirt"]],
+			#   ["cobblestone", "minecraft:white_wool", ["minecraft:wool"]]]
+			custom_generators = [["cobblestone", "minecraft:magma_block", ["minecraft:diorite", "minecraft:granite"]], ["cobblestone", "architects_palette:sunstone", ["minecraft:andesite"]], ["cobblestone", "quark:brimstone", ["cavesandcliffs:cobbled_deepslate|10", "quark:slate|90"]], ["cobblestone", "quark:permafrost", ["quark:jasper|75", "quark:marble|25"]]]
+

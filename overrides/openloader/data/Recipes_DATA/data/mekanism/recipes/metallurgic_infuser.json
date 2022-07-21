@@ -1,0 +1,26 @@
+{"type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:metallurgic_infuser"
+  },
+
+  "pattern":[
+    "SFS",
+    "WFW",
+    "SCS"
+  ],
+
+  "key":{
+    "S":{
+      "tag":"forge:ingots/steel"
+    },
+    "C":{
+      "item":"mekanism:steel_casing"
+    },
+    "W":{
+      "item":"immersiveengineering:coil_hv"
+    },
+    "F":{
+      "item":"minecraft:furnace"
+    }
+  }
+}

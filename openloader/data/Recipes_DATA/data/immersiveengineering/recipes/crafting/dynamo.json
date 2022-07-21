@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","pattern":["rcs","ppp"],"key":{"p":{"tag":"forge:plates/iron"},"c":{"item":"immersiveengineering:coil_lv"},"r":{"item":"contenttweaker:rotor"},"s":{"item":"contenttweaker:stator"}},"result":{"item":"immersiveengineering:dynamo"}}

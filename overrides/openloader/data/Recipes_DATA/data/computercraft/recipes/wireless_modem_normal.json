@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "CWC",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "forge:plates/aluminum"
+    },
+    "C": {
+      "tag": "forge:circuits/basic"
+    },
+    "W": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "result": {
+    "item": "computercraft:wireless_modem_normal"
+  }
+}

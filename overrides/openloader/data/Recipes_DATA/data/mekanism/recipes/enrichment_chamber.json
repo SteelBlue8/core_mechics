@@ -1,0 +1,32 @@
+{"type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:enrichment_chamber"
+  },
+
+  "pattern":[
+    "RAR",
+    "WGW",
+    "CSC"
+  ],
+
+  "key":{
+    "R":{
+      "item":"minecraft:redstone"
+    },
+    "A":{
+      "item":"computercraft:computer_normal"
+    },
+    "W":{
+      "item":"immersiveengineering:coil_hv"
+    },
+    "G":{
+      "item":"mekanism:structural_glass"
+    },
+    "C":{
+      "tag":"forge:circuits/basic"
+    },
+    "S":{
+      "item":"mekanism:steel_casing"
+    }
+  }
+}

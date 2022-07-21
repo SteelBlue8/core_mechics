@@ -1,1 +1,0 @@
-{"type":"minecraft:crafting_shaped","result":{"item":"mekanism:dynamic_tank","count":1},"pattern":["S","C"],"key":{"S":{"tag":"forge:sheetmetals/iron"},"C":{"item":"mekanism:steel_casing"}}}

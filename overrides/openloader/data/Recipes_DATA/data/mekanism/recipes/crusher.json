@@ -1,0 +1,31 @@
+{"type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:crusher"
+  },  
+  "pattern":[
+    "RMR",
+    "CDC",
+    "PSP"
+  ],
+
+  "key":{
+    "P":{
+      "tag":"forge:plates/steel"
+    },
+    "S":{
+      "item":"mekanism:steel_casing"
+    },
+    "D":{
+      "item":"immersiveengineering:drillhead_steel"
+    },
+    "R":{
+      "item":"minecraft:redstone"
+    },
+    "C":{
+      "tag":"forge:circuits/basic"
+    },
+    "M":{
+      "item":"contenttweaker:motor"
+    }
+  }
+}

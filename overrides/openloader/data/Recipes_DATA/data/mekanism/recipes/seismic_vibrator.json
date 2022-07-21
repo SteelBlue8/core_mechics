@@ -1,0 +1,25 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "result":{
+    "item":"mekanism:seismic_vibrator"
+  },
+  "pattern":[
+    "SCS",
+    "SIS",
+    "MIM"
+  ],
+  "key":{
+    "I":{
+      "tag":"forge:ingots/steel"
+    },
+    "M":{
+      "item":"contenttweaker:motor"
+    },
+    "C":{
+      "item":"computercraft:computer_normal"
+    },
+    "S":{
+      "item":"immersiveengineering:steel_scaffolding_standard"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "DDD",
+    "CAC"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:plates/aluminum"
+    },
+    "D": {
+      "item": "contenttweaker:lcd_chip"
+    },
+    "C": {
+      "tag": "forge:circuits/advanced"
+    },
+    "A":{
+      "item":"contenttweaker:aluminium_casing"
+    }
+  },
+  "result": {
+    "item": "computercraft:computer_normal"
+  }
+}

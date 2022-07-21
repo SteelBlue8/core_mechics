@@ -1,0 +1,22 @@
+{
+  "type":"immersiveengineering:arc_furnace",
+  "results":[{
+      "count":1,
+      "base_ingredient":{"tag":"forge:silicon"}
+  }],
+  "additives":[{
+    "item":"immersiveengineering:dust_hop_graphite"
+  }],
+  "input":{
+    "count":4,
+    "base_ingredient":{
+      "tag":"forge:dusts/quartz",
+      "count":4
+    }
+  },
+  "slag":{
+    "tag":"forge:slag"
+  },
+  "time":400,
+  "energy":409600
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:plates/aluminum"
+    },
+    "R": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    }
+  },
+  "result": {
+    "item": "computercraft:cable",
+    "count": 6
+  }
+}
